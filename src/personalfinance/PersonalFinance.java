@@ -1,8 +1,17 @@
 package personalfinance;
 
+import personalfinance.settings.Text;
+
 public class PersonalFinance {
 
-    public static void main(String[] args) {
-        System.out.println("Hello");
+
+    private static void init(){
+        Text.init();
     }
+
+    public static void main(String[] args) {
+
+    }
+
+
 }
